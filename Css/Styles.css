@@ -1,0 +1,130 @@
+/*********************Tags*********************/
+h1{
+  margin: 45px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4.85rem; /* 16px = 100%  = 1em*//*rem  = no hereda y suma*/
+  color: #66BFBF;
+}
+h2 {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 1.65rem;
+  color: #66BFBF;
+  font-weight: lighter;
+  margin-top: 50px;
+}
+h3 {
+  font-family: 'Baloo Tamma 2', cursive;
+  color: #11999E;
+}
+body{
+  margin: 0;
+  text-align: center;
+  color: #45b29a; /*color de la letra*/
+  background-color: #f5f1eb;
+}
+p {
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.5; /* para asegurar el tamanho*/
+}
+a {
+  color: #11999E;
+  font-family: 'Baloo Tamma 2', cursive;
+  text-decoration: none;
+}
+a:hover{
+  color: lightblue;
+}
+hr {
+  border-style: dotted none none;
+  width: 4%;
+  border-width: 8px;
+  border-color: lightgray;
+  margin-top: 35px;
+  margin-bottom: 35px;
+
+}
+
+/*********************Clases*********************/
+.top-div {
+  background-color: #e0ebe8;
+  padding-top: 180px;
+  position: relative;
+}
+.middle-div{
+  margin: 50px 0;
+}
+.bottom-div{
+  background-color: #66bfbf;
+  padding: 20px;
+}
+.top-cloud {
+  position:absolute; /*absolute lo posiciona segun el elemento padre*/
+  right: 210px;
+  top: 160px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 20px;
+  bottom: 330px;
+}
+.coding-img {
+  width: 25%;
+  float: left; /*hacer que el texto envuelva a la imagen. Lo contrario es con 'clear'*/
+  margin-right:30px;
+}
+.books-img {
+  width: 25%;
+  float: right;
+  margin-left:30px ;
+}
+.perfil-img {
+  border-radius: 50%;
+}
+.perfil-intro {
+  width: 50%;
+  margin: auto;
+}
+.profile-div {
+  margin-bottom: 60px;
+}
+.skill-row {
+  width: 50%;
+  margin: 30px auto 30px; /*para centrar horuizontalmente ambos divs y que arriba y debajo tenga un espacio*/
+  text-align: left;
+  padding: 20px;
+}
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+}
+.footer-link{
+  margin: 20px;
+}
+.contact-btn {
+   background: #06ba99;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-size: 16px;
+   font-weight: 500;
+   padding: 7px;
+   box-shadow: 1px 1px 6px 0 #000000;
+   text-shadow: 1px 1px 6px #000000;
+   border: solid #86ACCD 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 50px;
+   font-family: 'Baloo Tamma 2', cursive;
+}
+.contact-btn:hover {
+   border: solid #86ACCD 1px;
+   background: #60e6cd;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   text-decoration: none;
+   color: #FFFFFF;
+}
